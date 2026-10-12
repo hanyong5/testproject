@@ -1,0 +1,1 @@
+alter table public.user_roles drop constraint user_roles_role_check; alter table public.user_roles alter column role set default 'user'; update public.user_roles set role='user' where role='member'; alter table public.user_roles add constraint user_roles_role_check check (role in ('user','admin'));

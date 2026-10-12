@@ -1,0 +1,28 @@
+{
+  "id": 3,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\"name\":\"projects/3110874310554995551/screens/6a542cffe33f47dda00be054bc149e95\",\"title\":\"제품 및 솔루션 (Products) - NEXIS Corp\",\"screenshot\":{\"name\":\"projects/3110874310554995551/screens/6a542cffe33f47dda00be054bc149e95/fileEntries/screenshot\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1UaBuAMQny-9xTjrkhlb2RLshvtx_Ntj4tydgLzFwntWp_UdNCsrIMj9FzrwXipNvvhwaeT0QjBF7hhOZO5ka0U4N7rJj-y5MnWgTKEub9w7cgD8JE_sEx_zSbRKFeJuMXAm_3mGz_G9c3BPnu5V42YcyMgzwVQitgty7gLhCQGvEXmvNqNTRd3ZAO8tInK4YZfKqJj0vLVqk42oZ-p3HY32XnYX6K5hItcEZoQHz7J8qiS_kNNCFtMcaQ\"},\"htmlCode\":{\"name\":\"projects/3110874310554995551/screens/6a542cffe33f47dda00be054bc149e95/fileEntries/html\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJxEgxzdGl0Y2hfZmlsZXMaYQosc3RpdGNoX2h0bWxfMDAwNjVkM2FlOTJhNTNlNTAzMzg1NzMxMzcwMTk5ZTQSCxIHEMKek7v9GRgBkgEjCgpwcm9qZWN0X2lkEhVCEzMxMTA4NzQzMTA1NTQ5OTU1NTE&filename=&opi=89354086\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"8612\",\"deviceType\":\"DESKTOP\"}",
+        "type": "text"
+      }
+    ],
+    "structuredContent": {
+      "deviceType": "DESKTOP",
+      "height": "8612",
+      "htmlCode": {
+        "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJxEgxzdGl0Y2hfZmlsZXMaYQosc3RpdGNoX2h0bWxfMDAwNjVkM2FlOTJhNTNlNTAzMzg1NzMxMzcwMTk5ZTQSCxIHEMKek7v9GRgBkgEjCgpwcm9qZWN0X2lkEhVCEzMxMTA4NzQzMTA1NTQ5OTU1NTE&filename=&opi=89354086",
+        "mimeType": "text/html",
+        "name": "projects/3110874310554995551/screens/6a542cffe33f47dda00be054bc149e95/fileEntries/html"
+      },
+      "name": "projects/3110874310554995551/screens/6a542cffe33f47dda00be054bc149e95",
+      "screenshot": {
+        "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1UaBuAMQny-9xTjrkhlb2RLshvtx_Ntj4tydgLzFwntWp_UdNCsrIMj9FzrwXipNvvhwaeT0QjBF7hhOZO5ka0U4N7rJj-y5MnWgTKEub9w7cgD8JE_sEx_zSbRKFeJuMXAm_3mGz_G9c3BPnu5V42YcyMgzwVQitgty7gLhCQGvEXmvNqNTRd3ZAO8tInK4YZfKqJj0vLVqk42oZ-p3HY32XnYX6K5hItcEZoQHz7J8qiS_kNNCFtMcaQ",
+        "name": "projects/3110874310554995551/screens/6a542cffe33f47dda00be054bc149e95/fileEntries/screenshot"
+      },
+      "title": "제품 및 솔루션 (Products) - NEXIS Corp",
+      "width": "2560"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.login-page{padding:48px 24px 64px;background:var(--nx-soft,var(--muted));min-height:calc(100dvh - 80px);display:grid;place-items:center}
+.login-shell{width:100%;max-width:1040px;display:grid;grid-template-columns:1fr 1fr;background:var(--card);border:1px solid var(--border);border-radius:24px;overflow:hidden;box-shadow:0 20px 64px #10294a0c}
+.login-story{background:linear-gradient(145deg,#112e53,#091627);color:#fff;padding:40px;display:flex;flex-direction:column;justify-content:space-between;gap:48px}
+.login-brand{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:800;letter-spacing:3px}
+.login-kicker{font-size:10px;letter-spacing:2px;font-weight:700;margin-bottom:12px}.login-story .login-kicker{color:#91b8ee}
+.login-story h2{font-size:clamp(28px,3vw,38px);line-height:1.4;font-weight:700;letter-spacing:-1px}
+.login-story-copy{color:#b7c6da;font-size:13px;line-height:1.9;margin-top:20px}
+.login-story-foot{font-size:8px;letter-spacing:1.4px;color:#91a9c8}
+.login-orbit{position:relative;width:220px;height:180px;margin:30px auto 0;border:1px solid #749dd133;border-radius:50%;display:grid;place-items:center;transform:rotate(-12deg)}
+.login-orbit>div{width:88px;height:88px;display:grid;place-items:center;border-radius:24px;background:#6eabff12;border:1px solid #85b5fb40;color:#99c5ff;transform:rotate(12deg)}
+.login-orbit>span{position:absolute;padding:6px 10px;border:1px solid #507aa655;background:#142d49;border-radius:6px;font-size:8px;letter-spacing:1px;transform:rotate(12deg)}
+.login-orbit>span:nth-of-type(1){top:8px;left:0}.login-orbit>span:nth-of-type(2){right:-8px;top:65px}.login-orbit>span:nth-of-type(3){bottom:0;left:35px}
+.login-content{padding:32px 44px;display:flex;flex-direction:column;gap:36px;color:var(--foreground)}
+.login-back{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted-foreground);align-self:flex-start}.login-back:hover{color:var(--nx-blue)}
+.login-form-wrap{margin:auto 0}.login-symbol{display:grid;place-items:center;width:48px;height:48px;border-radius:14px;background:#2563eb10;color:var(--nx-blue);margin-bottom:20px}
+.login-content h1{font-size:30px;font-weight:750;letter-spacing:-1px}.login-intro{font-size:14px;color:var(--muted-foreground);margin-top:8px}
+.login-form{display:grid;gap:20px;margin-top:28px}.login-form label{display:block;font-size:13px;font-weight:600;margin-bottom:8px}
+.login-form input{width:100%;min-width:0;border:1px solid var(--border);border-radius:9px;background:var(--background);color:var(--foreground);padding:13px 14px;font-size:14px}
+.login-form input:focus-visible,.login-content a:focus-visible,.login-content button:focus-visible{outline:2px solid #2563eb;outline-offset:3px}
+.login-password{position:relative}.login-password input{padding-right:50px}.login-password button{position:absolute;right:4px;top:3px;bottom:3px;width:40px;display:grid;place-items:center;border-radius:6px;color:var(--muted-foreground);cursor:pointer}
+.login-submit{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px;background:#2563eb;color:#fff;font-size:14px;font-weight:600;border-radius:9px;cursor:pointer}.login-submit:hover{background:#1d4ed8}
+.login-notice{font-size:12px;line-height:1.7;color:var(--muted-foreground);padding:12px 14px;background:var(--muted);border-radius:8px}.login-bottom{font-size:11px;text-align:center;color:var(--muted-foreground)}
+@media(max-width:767px){.login-page{padding:24px 16px}.login-shell{max-width:460px;grid-template-columns:1fr;border-radius:16px}.login-story{display:none}.login-content{padding:24px;gap:28px}.login-form-wrap{margin:0}}
+.signup-help{font-size:12px;line-height:1.7;color:var(--muted-foreground);margin-top:7px}
+.signup-switch{margin-top:24px;text-align:center;font-size:13px;color:var(--muted-foreground)}
+.signup-switch a{color:var(--nx-blue);font-weight:700;margin-left:6px;text-decoration:underline;text-underline-offset:4px}
+.login-submit:disabled{opacity:.65;cursor:wait}.login-form input:disabled{opacity:.65}
+.signup-error{color:var(--destructive);border:1px solid currentColor}
+.signup-result{display:grid;gap:16px;margin-top:28px;line-height:1.8;font-size:14px;overflow-wrap:anywhere}
+.signup-result>svg{color:var(--nx-blue)}.signup-result h2{font-weight:700;font-size:18px}

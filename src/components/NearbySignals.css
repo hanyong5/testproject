@@ -1,0 +1,25 @@
+.traffic-light { display: inline-block; flex-shrink: 0; width: 12px; height: 12px; border-radius: 50%; border: 1px solid #0002; }
+.traffic-light--red { background: #dc2626; }
+.traffic-light--green { background: #16a34a; }
+.traffic-light--yellow { background: #eab308; }
+.traffic-light--gray { background: #94a3b8; }
+.traffic-light--flashing { animation: traffic-flash 1s steps(2, jump-none) infinite; }
+.traffic-map-label { border: 1px solid #2563eb; border-radius: 16px; padding: 5px 10px; background: white; color: #1e40af; font-size: 12px; font-weight: 600; box-shadow: 0 2px 6px #0002; cursor: pointer; }
+.traffic-map-label:focus-visible { outline: 3px solid #2563eb; outline-offset: 3px; }
+@keyframes traffic-flash { to { opacity: .25; } }
+@media (prefers-reduced-motion: reduce) { .traffic-light--flashing { animation: none; } }
+
+.traffic-map-signal { display: block; width: 230px; padding: 10px; border: 1px solid #cbd5e1; border-radius: 12px; background: #fff; color: #0f172a; box-shadow: 0 4px 14px #0003; text-align: left; cursor: pointer; }
+.traffic-map-signal:focus-visible { outline: 3px solid #2563eb; outline-offset: 3px; }
+.traffic-map-signal-heading { display: block; margin-bottom: 6px; font-size: 12px; white-space: normal; }
+.traffic-map-signal-rows { display: block; max-height: 144px; overflow-y: auto; overscroll-behavior: contain; font-size: 11px; }
+.traffic-map-signal-row { display: flex; align-items: center; gap: 5px; padding: 4px 0; }
+.traffic-map-signal-status { margin-left: auto; font-variant-numeric: tabular-nums; }
+
+.traffic-map-marker { position: relative; display: flex; flex-direction: column; align-items: center; padding: 0; border: 0; background: transparent; cursor: pointer; }
+.traffic-map-marker:focus-visible { outline: 3px solid #2563eb; outline-offset: 4px; border-radius: 8px; }
+.traffic-map-marker-icon { display: grid; place-items: center; width: 46px; height: 54px; border: 2px solid #fff; border-radius: 14px; background: #0f172a; font-size: 34px; line-height: 1; box-shadow: 0 3px 10px #0004; }
+.traffic-map-marker-name { max-width: 150px; margin-top: 4px; padding: 3px 7px; border-radius: 6px; background: white; color: #0f172a; box-shadow: 0 2px 6px #0002; font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.traffic-map-marker-detail { position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%); }
+.traffic-map-marker-detail[hidden] { display: none; }
+.traffic-map-marker-note { display: block; margin-bottom: 6px; color: #64748b; font-size: 10px; }
